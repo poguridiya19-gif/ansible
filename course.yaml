@@ -1,4 +1,4 @@
-vars:
+vars_files:
     COURSE: devops with aws
     DURATION: 10Hrs
     TRAINER: Siva
