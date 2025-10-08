@@ -1,8 +1,8 @@
 - name: vars preference
-  host: local
+  hosts: local
   connection: local
   vars: 
-  - name: from play level
+    NAME: from play level
   vars_files:
   - course.yaml
   vars_prompt:
@@ -12,6 +12,6 @@
   tasks:
   - name: testing variables preference
     vars:
-     NAME: from task level
+      NAME: from task level
     ansible.builtin.debug:
-     msg: "name: {{ NAME }}"
+      msg: "name: {{ NAME }}"
