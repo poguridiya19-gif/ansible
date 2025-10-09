@@ -1,5 +1,5 @@
 - name: vars preference
-  hosts: local host
+  hosts: local
   connection: local
   vars: 
     NAME: from play level
