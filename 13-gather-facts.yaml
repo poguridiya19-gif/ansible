@@ -1,0 +1,8 @@
+- name: gather facts
+  hosts: localhost
+  connection: local
+  # ansible collects the info of target server , because it executes any other fact
+  tasks:
+  - name: facts
+    ansible.builtin.debug:
+     msg: "{{ ansible facts }}"
