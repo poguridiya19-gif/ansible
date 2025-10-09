@@ -17,3 +17,4 @@
       msg: "name: {{ NAME }}"
 
 # 1. args or command line
+# 2. from prompt
