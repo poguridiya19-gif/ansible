@@ -8,5 +8,5 @@
      name: "{{ item }}"
      state: latest
     loop:
-    - {name: "nginx",state: "latest"}
-    - {name: "mysql",state: "absent"}
+    - { name: "nginx", state: "latest"}
+    - { name: "mysql", state: "absent"}
