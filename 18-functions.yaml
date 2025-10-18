@@ -59,4 +59,6 @@
     ansible.builtin.debug:
       msg: " {{ ipaddress | ansible.utils.ipv4 }}"
 
-  - name: 
+  - name: grep for root
+    ansible.builtin.command: cat /etc/passwd | grep root
+    register: output_command
