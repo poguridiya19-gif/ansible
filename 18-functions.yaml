@@ -5,7 +5,7 @@
     technologies: devops,shell,ansible # string
     name: "Diya nanda poguri"
     gmail: Poguri@GMAIL.COM
-    ipaddress: 18.207.123.36
+    ipaddress: "19222.168.0.1"
     #dictionary == map
     tags:
      application: payment
@@ -58,3 +58,5 @@
   - name: check IPs valid or not
     ansible.builtin.debug:
       msg: " {{ ipaddress | ansible.utils.ipv4 }}"
+
+  - name: 
